@@ -1,0 +1,50 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 25px;
+}
+
+.counter h2 {
+  font-size: 50px;
+}
+
+button.btn {
+  border: 2px solid black;
+  font-size: 18px;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.decrement:hover {
+  background: red;
+}
+
+.increment:hover {
+  background: green;
+}
+
+.reset:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
